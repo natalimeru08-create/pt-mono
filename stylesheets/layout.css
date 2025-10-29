@@ -1,0 +1,669 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "PT Mono";
+  background-color: black;
+  width: 1440px;
+  height: 7918px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+/* стиль текта */
+h1 {
+  font-size: 102px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 72px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 40px;
+}
+p {
+  font-size: 25px;
+}
+/* главный экрaн */
+.titleBlock {
+  width: 1440px;
+  height: 921px;
+}
+.text1 {
+  position: absolute;
+  top: 286px;
+  left: 258px;
+}
+
+.firstSection {
+  top: 974px;
+  position: absolute;
+  height: 1880px;
+  width: 1440px;
+}
+.shape1 {
+  position: absolute;
+  width: 905px;
+  height: 1230px;
+  background-color: white;
+  transform: rotate(-7deg);
+  top: 100px;
+  left: 287px;
+}
+.text2 {
+  position: absolute;
+  top: 103px;
+  left: 150px;
+}
+.text2 p {
+  margin-top: 40px;
+  width: 656px;
+}
+.paper1 {
+  position: absolute;
+  z-index: 2;
+}
+.pencil1 {
+  position: absolute;
+  z-index: 8;
+  top: 82px;
+  left: 673px;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease-in-out;
+}
+.pencil1:hover {
+  transform: rotate(10deg);
+}
+.paper2 {
+  position: absolute;
+  z-index: 3;
+  left: 1124px;
+  margin-top: 631px;
+}
+.pencil2 {
+  position: absolute;
+  top: 614px;
+}
+.paper3 {
+  position: absolute;
+  top: 969px;
+}
+.folder1 {
+  position: absolute;
+  z-index: 2;
+  top: 843px;
+  left: 451px;
+}
+.shape2 {
+  position: absolute;
+  width: 803px;
+  height: 1230px;
+  z-index: 2;
+  background-color: white;
+  top: 963px;
+  left: 637px;
+}
+.shape2 p:nth-of-type(1) {
+  margin-top: 56px;
+  margin-left: 21px;
+}
+.shape2 p:nth-of-type(2) {
+  margin: 100px 0 0 454px;
+}
+.shape2 p:nth-of-type(3) {
+  margin: 126px 0 0 165px;
+}
+.shape2 p:nth-of-type(4) {
+  margin: 292px 0 0 310px;
+}
+.blackpen {
+  position: absolute;
+  z-index: 2;
+  top: 970px;
+  left: 642px;
+}
+.clips1 {
+  position: absolute;
+  left: 72px;
+  top: 1512px;
+}
+.secondSection {
+  top: 2842px;
+  position: absolute;
+  z-index: 4;
+  height: 4144px;
+}
+.folders {
+  position: relative;
+}
+.secondSection h3:nth-of-type(1) {
+  color: white;
+  position: absolute;
+  top: 13px;
+  left: 263px;
+}
+.secondSection h3:nth-of-type(2) {
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  top: 227px;
+  left: 626px;
+}
+.secondSection h3:nth-of-type(3) {
+  position: absolute;
+  top: 443px;
+  left: 344px;
+}
+.secondSection p:nth-of-type(1) {
+  position: absolute;
+  top: 678px;
+  left: 80px;
+  width: 624px;
+}
+
+.shape3 {
+  position: absolute;
+  height: 709px;
+  width: 1324px;
+  background-color: white;
+  top: 848px;
+  left: 45px;
+  z-index: 6;
+}
+.shape4 {
+  position: absolute;
+  height: 709px;
+  width: 1324px;
+  background-color: #e5e5e5;
+  top: 881px;
+  left: 80px;
+  z-index: 5;
+  transform: rotate(-2deg);
+}
+.clip1 {
+  position: absolute;
+  z-index: 5;
+  top: 617px;
+  left: 1026px;
+}
+.clip2 {
+  position: absolute;
+  z-index: 6;
+  top: 767px;
+  left: 1177px;
+}
+.secondSection p:nth-of-type(2) {
+  position: absolute;
+  top: 977px;
+  left: 255px;
+  width: 335px;
+  z-index: 6;
+}
+.shape_a,
+.shape_o,
+.shape_b,
+.shape_d,
+.shape_e,
+.shape_y {
+  width: 194px;
+  height: 194px;
+  background-color: #d9d9d9;
+  position: absolute;
+  z-index: 6;
+}
+.shape_a {
+  top: 901px;
+  left: 733px;
+  font-size: 202px;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 170px;
+}
+.shape_o {
+  top: 907px;
+  left: 1092px;
+  font-size: 202px;
+  padding-left: 37px;
+  padding-right: 40px;
+  line-height: 170px;
+}
+.shape_b {
+  top: 1207px;
+  left: 803px;
+  font-size: 202px;
+  padding-left: 37px;
+  padding-right: 40px;
+  line-height: 210px;
+}
+
+.shape_d {
+  top: 1326px;
+  left: 901px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 202px;
+  line-height: 155px;
+}
+.shape_e {
+  top: 1305px;
+  left: 371px;
+  padding-left: 43px;
+  padding-right: 43px;
+  font-size: 171px;
+  line-height: 170px;
+}
+.shape_y {
+  top: 1196px;
+  left: 81px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 10px;
+  font-size: 170px;
+  line-height: 134px;
+}
+.vectorLine1 {
+  position: absolute;
+  z-index: 7;
+  top: 901px;
+  left: 755px;
+}
+.vectorLine2 {
+  position: absolute;
+  transform: rotate(-178deg);
+  z-index: 7;
+  top: 1188px;
+  left: 867px;
+}
+.vectorLine3 {
+  position: absolute;
+  z-index: 7;
+  top: 1439px;
+  left: 445px;
+}
+.vectorLine4 {
+  position: absolute;
+  z-index: 7;
+  top: 1354px;
+  left: 137px;
+}
+.marker {
+  position: absolute;
+  z-index: 7;
+  top: 1236px;
+  left: 1097px;
+}
+.thirdSection {
+  position: relative;
+  top: 4365px;
+  position: absolute;
+  z-index: 8;
+  height: 2595px;
+  width: 1440px;
+}
+.folders2 {
+  position: absolute;
+  left: 176px;
+}
+.shape5 {
+  position: absolute;
+  width: 905px;
+  height: 1230px;
+  background-color: white;
+  z-index: 9;
+  top: 161px;
+  left: 371px;
+}
+.clamp {
+  position: absolute;
+  z-index: 9;
+  top: 1px;
+  left: 356px;
+}
+.text3 {
+  margin-top: 297px;
+  margin-left: 86px;
+  width: 319px;
+}
+.text4 {
+  margin-top: 362px;
+  margin-left: 414px;
+  width: 376px;
+}
+
+.Ll,
+.Ii,
+.Jj,
+.zero,
+.O {
+  position: absolute;
+  font-size: 112px;
+  z-index: 10;
+}
+.Ll,
+.Ii,
+.Jj {
+  letter-spacing: -13px;
+}
+.Ll {
+  position: absolute;
+  top: 325px;
+  left: 840px;
+}
+.Ii {
+  position: absolute;
+  top: 325px;
+  left: 1077px;
+}
+.Jj {
+  position: absolute;
+  top: 438px;
+  left: 965px;
+}
+
+.zero {
+  position: absolute;
+  top: 550px;
+  left: 888px;
+}
+.O {
+  position: absolute;
+  top: 550px;
+  left: 1085px;
+}
+
+.vectorLine5 {
+  position: absolute;
+  z-index: 11;
+  top: 318px;
+  left: 887px;
+}
+.vectorLine6 {
+  position: absolute;
+  transform: rotate(-190deg);
+  z-index: 11;
+  top: 324px;
+  left: 1133px;
+}
+.vectorLine7 {
+  position: absolute;
+  transform: rotate(230deg);
+  z-index: 11;
+  top: 436px;
+  left: 1036px;
+}
+.arrow {
+  position: absolute;
+  z-index: 11;
+  top: 628px;
+  left: 832px;
+}
+.stiker2 {
+  position: absolute;
+  z-index: 10;
+  top: 719px;
+  left: 1187px;
+}
+.stiker1 {
+  position: absolute;
+  z-index: 11;
+  top: 268px;
+  left: 115px;
+}
+.lines1 {
+  position: absolute;
+  z-index: 10;
+  top: 419px;
+  left: 879px;
+}
+.lines2 {
+  position: absolute;
+  z-index: 10;
+  top: 340px;
+  left: 1061px;
+}
+.shape6,
+.shape7 {
+  position: absolute;
+  width: 905px;
+  height: 1230px;
+  z-index: 8;
+}
+.shape6 {
+  background-color: #e5e5e5;
+  transform: rotate(-3deg);
+  top: 203px;
+  left: 432px;
+}
+.shape7 {
+  background-color: #dbdbdb;
+  transform: rotate(-5deg);
+  z-index: 7;
+  top: 237px;
+  left: 478px;
+}
+.shape8 {
+  position: absolute;
+  width: 617px;
+  height: 617px;
+  background-color: white;
+  transform: rotate(-6deg);
+  z-index: 8;
+  top: 851px;
+  left: 148px;
+}
+.clip3 {
+  position: absolute;
+  z-index: 11;
+  top: 728px;
+  left: 213px;
+}
+.blackPen2 {
+  position: absolute;
+  z-index: 10;
+  top: 865px;
+  left: 148px;
+}
+.serif1,
+.serif2,
+.serif3 {
+  position: absolute;
+  z-index: 9;
+}
+.serif1 {
+  top: 917px;
+  left: 185px;
+}
+.serif2 {
+  top: 966px;
+  left: 463px;
+}
+.serif3 {
+  top: 1218px;
+  left: 217px;
+}
+.shape9 {
+  position: absolute;
+  width: 905px;
+  height: 1076px;
+  transform: rotate(7deg);
+  background-color: white;
+  top: 1607px;
+  left: 247px;
+}
+.text5 {
+  margin-top: 529px;
+  margin-left: 63px;
+  width: 776px;
+}
+.text5 p:nth-of-type(2),
+.text5 p:nth-of-type(3) {
+  margin-top: 40px;
+}
+.rounds1 {
+  position: absolute;
+  top: 156px;
+  left: 74px;
+}
+.rounds1 img {
+  margin-left: -16px;
+}
+.rounds2 {
+  position: absolute;
+  top: 294px;
+  left: 136px;
+}
+.rounds2 img:nth-of-type(2),
+.rounds2 img:nth-of-type(3),
+.rounds2 img:nth-of-type(4),
+.rounds2 img:nth-of-type(5) {
+  margin-left: -16px;
+}
+
+.glifs {
+  position: absolute;
+  height: 260px;
+  width: 765px;
+  top: 156px;
+  left: 74px;
+}
+.glifs p {
+  position: absolute;
+  font-size: 102px;
+  color: white;
+  z-index: 12;
+}
+.glifs p:nth-of-type(1) {
+  top: 21px;
+  left: 20px;
+}
+.glifs p:nth-of-type(2) {
+  top: 1px;
+  left: 153px;
+}
+.glifs p:nth-of-type(3) {
+  top: 29px;
+  left: 282px;
+}
+.glifs p:nth-of-type(4) {
+  top: 16px;
+  left: 414px;
+}
+.glifs p:nth-of-type(5) {
+  top: 21px;
+  left: 544px;
+}
+.glifs p:nth-of-type(6) {
+  top: 16px;
+  left: 675px;
+}
+.glifs p:nth-of-type(7) {
+  top: 152px;
+  left: 100px;
+}
+.glifs p:nth-of-type(8) {
+  top: 160px;
+  left: 229px;
+}
+.glifs p:nth-of-type(9) {
+  top: 158px;
+  left: 362px;
+}
+.glifs p:nth-of-type(10) {
+  top: 148px;
+  left: 619px;
+}
+.glifs img {
+  position: absolute;
+  z-index: 12;
+  top: 161px;
+  left: 497px;
+}
+.paper4 {
+  position: absolute;
+  top: 1621px;
+  left: 1034px;
+}
+.paper5 {
+  position: absolute;
+  z-index: 12;
+  top: 1881px;
+}
+.paper6 {
+  position: absolute;
+  z-index: 13;
+  top: 2366px;
+  left: 974px;
+}
+.shape10 {
+  position: absolute;
+  width: 1440px;
+  height: 814px;
+  top: 2621px;
+  z-index: 10;
+  background-color: black;
+}
+.shape10 p {
+  position: absolute;
+  color: white;
+  left: 82px;
+  width: 776px;
+}
+.shape10 p:nth-of-type(1) {
+  top: 309px;
+}
+.shape10 p:nth-of-type(2) {
+  top: 461px;
+}
+.paper7 {
+  position: absolute;
+  z-index: 13;
+  top: 2769px;
+  left: 919px;
+}
+.knob1 {
+  position: absolute;
+  top: 1573px;
+  left: 708px;
+  z-index: 13;
+}
+.knob2 {
+  position: absolute;
+  top: 1716px;
+  left: 43px;
+}
+.knob3 {
+  position: absolute;
+  top: 2260px;
+  left: 1217px;
+}
+.knob4 {
+  position: absolute;
+  top: 2406px;
+  left: 86px;
+}
+.bin1 {
+  position: absolute;
+  top: 3029px;
+  left: 888px;
+  z-index: 13;
+}
+.basementBlock {
+  top: 7797px;
+  position: absolute;
+  width: 1440px;
+  height: 160px;
+  background-color: #e4e4e4;
+}
+.basementBlock p {
+  position: absolute;
+  left: 80px;
+  top: 48px;
+}
+.basementBlock p:nth-of-type(2) {
+  top: 82px;
+}
