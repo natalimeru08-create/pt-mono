@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "PTMono";
-  src: url('/pt-mono/font/PTMono.ttf');
+  font-family: "PTMonoRegular";
+  src: url("/font/PTMono-regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "PTMono";
-  src: url('/pt-mono/font/PTMono.ttf');
+  font-family: "PTMonoBold";
+  src: url("/font/PT\ Mono-bold.ttf");
   font-weight: bold;
   font-style: bold;
 }
