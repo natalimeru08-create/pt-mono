@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "PT Mono", serif;
+  font-family: "PT Mono", monospace;
   background-color: black;
   width: 1440px;
   height: 7918px;
@@ -16,18 +16,18 @@ body {
 }
 .pt-mono-regular {
   font-family: "PT Mono", monospace;
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
 }
 
 /* стиль текта */
 h1 {
   font-size: 102px;
-  font-weight: bold;
+  font-weight: 900;
 }
 h2 {
   font-size: 72px;
-  font-weight: bold;
+  font-weight: 900;
 }
 h3 {
   font-size: 40px;
@@ -154,12 +154,12 @@ p {
   left: 263px;
 }
 .secondSection h3:nth-of-type(1):hover {
-  font-weight: bold;
+  font-weight: 900;
 }
 .secondSection h3:nth-of-type(2) {
   color: white;
   position: absolute;
-  font-weight: bold;
+  font-weight: 900;
   top: 227px;
   left: 626px;
 }
@@ -172,7 +172,7 @@ p {
   left: 344px;
 }
 .secondSection h3:nth-of-type(3):hover {
-  font-weight: bold;
+  font-weight: 900;
 }
 .secondSection p:nth-of-type(1) {
   position: absolute;
