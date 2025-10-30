@@ -1,12 +1,18 @@
 @font-face {
   font-family: "PTMonoRegular";
-  src: url("/font/PTMono-regular.ttf");
+  src: local("PT Mono") url("/font/regular/PT-Mono-regular.ttf") format("ttf");
+  src: url("/font/regular/PT-Mono-regular.woff") format("woff");
+  src: url("/font/regular/PT-Mono-regular.otf") format("otf");
+  src: url("/font/regular/PT-Mono-regular.eot") format("eot");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "PTMonoBold";
-  src: url("/font/PT\ Mono-bold.ttf");
+  src: local("PT Mono") url("/font/bold/PT-Mono-bold.woff") format("woff");
+  src: url("/font/bold/PT-Mono-bold.eot") format("eot");
+  src: url("/font/bold/PT-Mono-bold.ttf") format("ttf");
+  src: url("/font/bold/PT-Mono-bold.otf") format("otf");
+  font-style: normal;
   font-weight: bold;
-  font-style: bold;
 }
