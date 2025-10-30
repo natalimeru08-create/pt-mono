@@ -77,7 +77,7 @@ p {
   transition: transform 0.5s ease-in-out;
 }
 .pencil1:hover {
-  transform: rotate(10deg);
+  transform: rotate(5deg);
 }
 .paper2 {
   position: absolute;
@@ -147,6 +147,9 @@ p {
   top: 13px;
   left: 263px;
 }
+.secondSection h3:nth-of-type(1):hover {
+  font-weight: bold;
+}
 .secondSection h3:nth-of-type(2) {
   color: white;
   position: absolute;
@@ -154,10 +157,16 @@ p {
   top: 227px;
   left: 626px;
 }
+.secondSection h3:nth-of-type(2):hover {
+  font-weight: normal;
+}
 .secondSection h3:nth-of-type(3) {
   position: absolute;
   top: 443px;
   left: 344px;
+}
+.secondSection h3:nth-of-type(3):hover {
+  font-weight: bold;
 }
 .secondSection p:nth-of-type(1) {
   position: absolute;
@@ -190,6 +199,10 @@ p {
   z-index: 5;
   top: 617px;
   left: 1026px;
+  transition: transform 0.5s ease-in-out;
+}
+.clip1:hover {
+  transform: rotate(-15deg);
 }
 .clip2 {
   position: absolute;
@@ -635,16 +648,28 @@ p {
   position: absolute;
   top: 1716px;
   left: 43px;
+  transition: transform 0.5s ease-in-out;
+}
+.knob2:hover {
+  transform: rotate(-15deg);
 }
 .knob3 {
   position: absolute;
   top: 2260px;
   left: 1217px;
+  transition: transform 0.5s ease-in-out;
+}
+.knob3:hover {
+  transform: rotate(15deg);
 }
 .knob4 {
   position: absolute;
   top: 2406px;
   left: 86px;
+  transition: transform 0.5s ease-in-out;
+}
+.knob4:hover {
+  transform: rotate(20deg);
 }
 .bin1 {
   position: absolute;
