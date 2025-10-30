@@ -23,11 +23,11 @@ body {
 /* стиль текта */
 h1 {
   font-size: 102px;
-  font-weight: 900;
+  font-weight: bold;
 }
 h2 {
   font-size: 72px;
-  font-weight: 900;
+  font-weight: bold;
 }
 h3 {
   font-size: 40px;
@@ -159,7 +159,7 @@ p {
 .secondSection h3:nth-of-type(2) {
   color: white;
   position: absolute;
-  font-weight: 900;
+  font-weight: bold;
   top: 227px;
   left: 626px;
 }
@@ -172,7 +172,7 @@ p {
   left: 344px;
 }
 .secondSection h3:nth-of-type(3):hover {
-  font-weight: 900;
+  font-weight: bold;
 }
 .secondSection p:nth-of-type(1) {
   position: absolute;
